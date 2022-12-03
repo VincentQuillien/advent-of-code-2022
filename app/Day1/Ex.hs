@@ -1,5 +1,8 @@
-import Data.List (sortBy)
-import Data.List.Split
+module Day1.Ex where
+
+import Data.List (find, sortBy)
+import Data.List.Split (splitOn)
+import Data.Maybe (fromJust)
 
 main = do
   inputLines <- lines <$> readFile "day1.input"
