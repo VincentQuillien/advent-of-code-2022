@@ -27,13 +27,15 @@ executable advent-of-code
         Day2.Ex
         Day3.Ex
         Day4.Ex
+        Day5.Ex
 
     -- LANGUAGE extensions used by modules in this package.
     -- other-extensions:
     build-depends:
         base ^>=4.16.1.0,
         split ^>=0.2.0.0,
-        containers ^>=0.6.6
+        containers ^>=0.6.6,
+        ilist ^>=0.4.0.1
     hs-source-dirs: 
         app
     default-language: Haskell2010
