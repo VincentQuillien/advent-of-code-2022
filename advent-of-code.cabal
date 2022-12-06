@@ -28,6 +28,7 @@ executable advent-of-code
         Day3.Ex
         Day4.Ex
         Day5.Ex
+        Day6.Ex
 
     -- LANGUAGE extensions used by modules in this package.
     -- other-extensions:
