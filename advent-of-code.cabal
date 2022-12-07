@@ -29,9 +29,13 @@ executable advent-of-code
         Day4.Ex
         Day5.Ex
         Day6.Ex
+        Day7.Ex
 
-    -- LANGUAGE extensions used by modules in this package.
-    -- other-extensions:
+    extensions:
+        RecordWildCards
+    ghc-options:
+        -fwarn-incomplete-patterns
+
     build-depends:
         base ^>=4.16.1.0,
         split ^>=0.2.0.0,
