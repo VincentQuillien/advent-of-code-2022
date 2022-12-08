@@ -30,6 +30,7 @@ executable advent-of-code
         Day5.Ex
         Day6.Ex
         Day7.Ex
+        Day8.Ex
 
     extensions:
         RecordWildCards
@@ -40,7 +41,8 @@ executable advent-of-code
         base ^>=4.16.1.0,
         split ^>=0.2.0.0,
         containers ^>=0.6.6,
-        ilist ^>=0.4.0.1
+        ilist ^>=0.4.0.1,
+        lens ^>=5.2
     hs-source-dirs: 
         app
     default-language: Haskell2010
